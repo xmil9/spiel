@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\sge_game2.cpp" />
+    <ClCompile Include="..\..\sge_animations.cpp">
+      <Filter>Resource Management</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sge_animation.cpp">
+      <Filter>Rendering\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sge_button.cpp">
+      <Filter>Ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sge_camera_fps.cpp">
+      <Filter>Rendering\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sge_frustum3.cpp">
+      <Filter>Rendering\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sge_input.cpp">
+      <Filter>Ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sge_label.cpp">
+      <Filter>Ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sge_main_window.cpp">
+      <Filter>Ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sge_png_texture.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sge_renderer2.cpp">
+      <Filter>Rendering\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sge_sprite_form.cpp">
+      <Filter>Rendering\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sge_sprite_renderer.cpp">
+      <Filter>Rendering\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sge_text_renderer.cpp">
+      <Filter>Rendering\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sge_textures.cpp">
+      <Filter>Resource Management</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\deps\glad\src\glad.c">
+      <Filter>Glad</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\sge_game2.h" />
+    <ClInclude Include="..\..\sge_types.h" />
+    <ClInclude Include="..\..\sge_animations.h">
+      <Filter>Resource Management</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sge_animation.h">
+      <Filter>Rendering\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sge_button.h">
+      <Filter>Ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sge_camera_2d.h">
+      <Filter>Rendering\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sge_camera_fps.h">
+      <Filter>Rendering\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sge_coords.h">
+      <Filter>Coordinates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sge_direction.h">
+      <Filter>Coordinates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sge_frustum2.h">
+      <Filter>Rendering\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sge_frustum3.h">
+      <Filter>Rendering\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sge_input.h">
+      <Filter>Ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sge_input_controller.h">
+      <Filter>Ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sge_label.h">
+      <Filter>Ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sge_int_coords.h">
+      <Filter>Coordinates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sge_main_window.h">
+      <Filter>Ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sge_lap_clock.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sge_map_coords.h">
+      <Filter>Coordinates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sge_mesh2.h">
+      <Filter>Rendering\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sge_norm_coords.h">
+      <Filter>Coordinates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sge_pixel_coords.h">
+      <Filter>Coordinates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sge_png_texture.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sge_point2.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sge_rect.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sge_renderer2.h">
+      <Filter>Rendering\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sge_resources.h">
+      <Filter>Resource Management</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sge_sprite_form.h">
+      <Filter>Rendering\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sge_sprite_look.h">
+      <Filter>Rendering\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sge_sprite_renderer.h">
+      <Filter>Rendering\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sge_text_renderer.h">
+      <Filter>Rendering\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sge_textures.h">
+      <Filter>Resource Management</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sge_sprite.h">
+      <Filter>Rendering\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\deps\glad\include\glad\glad.h">
+      <Filter>Glad</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Coordinates">
+      <UniqueIdentifier>{ca1a287a-7acd-470e-99fe-94026fba37d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Glad">
+      <UniqueIdentifier>{ead223d9-adce-4ec0-950d-7780cbc9d7c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering">
+      <UniqueIdentifier>{70f8ea79-7311-4d29-8ea5-c92f56613ab5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\2d">
+      <UniqueIdentifier>{cc5c7f93-a463-4522-9569-2d8fd1998627}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\3d">
+      <UniqueIdentifier>{0a8b4f16-f3f5-4cce-857a-9b09f359218e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\Text">
+      <UniqueIdentifier>{8dd407f1-3dbc-42ed-8ad5-1175fd7f1cbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Management">
+      <UniqueIdentifier>{dc005694-d8b2-4ae8-a264-326c0783efc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui">
+      <UniqueIdentifier>{37d6f040-2770-4954-8479-000dee68944f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{4622d19c-7d00-4d4d-999f-a14d95986d31}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

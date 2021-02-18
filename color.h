@@ -3,12 +3,12 @@
 // MIT license
 //
 #pragma once
-#include "lap_clock.h"
 #include "glm/vec3.hpp"
 
 
 namespace sp
 {
+///////////////////
 
 using Color = glm::vec3;
 constexpr Color White{1.f, 1.f, 1.f};

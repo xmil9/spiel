@@ -3,8 +3,8 @@
 // MIT license
 //
 #pragma once
+#include "color.h"
 #include "mesh2.h"
-#include "types.h"
 #include "glm/vec2.hpp"
 #include "opengl_util/gll_vao.h"
 #include <filesystem>

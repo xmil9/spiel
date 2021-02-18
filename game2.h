@@ -5,10 +5,10 @@
 #pragma once
 #include "coords.h"
 #include "input.h"
+#include "lap_clock.h"
 #include "main_window.h"
 #include "renderer2.h"
 #include "resources.h"
-#include "types.h"
 #include "opengl_util/gfl_lib.h"
 #include <filesystem>
 #include <string>

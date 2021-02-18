@@ -3,7 +3,7 @@
 // MIT license
 //
 #pragma once
-#include "types.h"
+#include "color.h"
 #include "glm/vec3.hpp"
 #include <optional>
 #include <string>

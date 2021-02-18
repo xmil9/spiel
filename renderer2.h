@@ -4,11 +4,11 @@
 //
 #pragma once
 #include "camera_2d.h"
+#include "color.h"
 #include "frustum2.h"
 #include "sprite.h"
 #include "sprite_renderer.h"
 #include "text_renderer.h"
-#include "types.h"
 #include "glm/vec3.hpp"
 #include "opengl_util/gll_program.h"
 #include "opengl_util/gll_uniform.h"

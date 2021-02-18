@@ -3,8 +3,8 @@
 // MIT license
 //
 #pragma once
+#include "color.h"
 #include "coords.h"
-#include "types.h"
 #include <functional>
 #include <string>
 

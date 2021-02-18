@@ -143,7 +143,7 @@
       <Filter>Utilities</Filter>
     </ClInclude>
     <ClInclude Include="..\..\game2.h" />
-    <ClInclude Include="..\..\types.h" />
+    <ClInclude Include="..\..\color.h" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Coordinates">

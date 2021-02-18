@@ -69,7 +69,7 @@
     <ClInclude Include="..\..\sprite_renderer.h" />
     <ClInclude Include="..\..\textures.h" />
     <ClInclude Include="..\..\text_renderer.h" />
-    <ClInclude Include="..\..\types.h" />
+    <ClInclude Include="..\..\color.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\shaders\sprite_shader.fs" />

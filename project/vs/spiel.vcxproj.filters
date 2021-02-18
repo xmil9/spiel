@@ -4,146 +4,146 @@
     <ClCompile Include="..\..\deps\glad\src\glad.c">
       <Filter>Glad</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\sp_png_texture.cpp">
-      <Filter>Utilities</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\sp_animation.cpp">
+    <ClCompile Include="..\..\animation.cpp">
       <Filter>Rendering\2d</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\sp_renderer2.cpp">
+    <ClCompile Include="..\..\renderer2.cpp">
       <Filter>Rendering\2d</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\sp_sprite_form.cpp">
+    <ClCompile Include="..\..\sprite_form.cpp">
       <Filter>Rendering\2d</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\sp_sprite_renderer.cpp">
+    <ClCompile Include="..\..\sprite_renderer.cpp">
       <Filter>Rendering\2d</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\sp_camera_fps.cpp">
+    <ClCompile Include="..\..\camera_fps.cpp">
       <Filter>Rendering\3d</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\sp_frustum3.cpp">
+    <ClCompile Include="..\..\frustum3.cpp">
       <Filter>Rendering\3d</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\sp_text_renderer.cpp">
+    <ClCompile Include="..\..\text_renderer.cpp">
       <Filter>Rendering\Text</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\sp_animations.cpp">
+    <ClCompile Include="..\..\animations.cpp">
       <Filter>Resource Management</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\sp_textures.cpp">
+    <ClCompile Include="..\..\textures.cpp">
       <Filter>Resource Management</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\sp_button.cpp">
+    <ClCompile Include="..\..\button.cpp">
       <Filter>Ui</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\sp_input.cpp">
+    <ClCompile Include="..\..\input.cpp">
       <Filter>Ui</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\sp_label.cpp">
+    <ClCompile Include="..\..\label.cpp">
       <Filter>Ui</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\sp_main_window.cpp">
+    <ClCompile Include="..\..\main_window.cpp">
       <Filter>Ui</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\sp_game2.cpp" />
+    <ClCompile Include="..\..\png_texture.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\game2.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\deps\glad\include\glad\glad.h">
       <Filter>Glad</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\sp_coords.h">
+    <ClInclude Include="..\..\coords.h">
       <Filter>Coordinates</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\sp_direction.h">
+    <ClInclude Include="..\..\direction.h">
       <Filter>Coordinates</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\sp_int_coords.h">
+    <ClInclude Include="..\..\int_coords.h">
       <Filter>Coordinates</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\sp_map_coords.h">
+    <ClInclude Include="..\..\map_coords.h">
       <Filter>Coordinates</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\sp_norm_coords.h">
+    <ClInclude Include="..\..\norm_coords.h">
       <Filter>Coordinates</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\sp_pixel_coords.h">
+    <ClInclude Include="..\..\pixel_coords.h">
       <Filter>Coordinates</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\sp_lap_clock.h">
-      <Filter>Utilities</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\sp_png_texture.h">
-      <Filter>Utilities</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\sp_point2.h">
-      <Filter>Utilities</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\sp_rect.h">
-      <Filter>Utilities</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\sp_animation.h">
+    <ClInclude Include="..\..\animation.h">
       <Filter>Rendering\2d</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\sp_camera_2d.h">
+    <ClInclude Include="..\..\camera_2d.h">
       <Filter>Rendering\2d</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\sp_frustum2.h">
+    <ClInclude Include="..\..\frustum2.h">
       <Filter>Rendering\2d</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\sp_mesh2.h">
+    <ClInclude Include="..\..\mesh2.h">
       <Filter>Rendering\2d</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\sp_renderer2.h">
+    <ClInclude Include="..\..\renderer2.h">
       <Filter>Rendering\2d</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\sp_sprite.h">
+    <ClInclude Include="..\..\sprite.h">
       <Filter>Rendering\2d</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\sp_sprite_form.h">
+    <ClInclude Include="..\..\sprite_form.h">
       <Filter>Rendering\2d</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\sp_sprite_look.h">
+    <ClInclude Include="..\..\sprite_look.h">
       <Filter>Rendering\2d</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\sp_sprite_renderer.h">
+    <ClInclude Include="..\..\sprite_renderer.h">
       <Filter>Rendering\2d</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\sp_camera_fps.h">
+    <ClInclude Include="..\..\camera_fps.h">
       <Filter>Rendering\3d</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\sp_frustum3.h">
+    <ClInclude Include="..\..\frustum3.h">
       <Filter>Rendering\3d</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\sp_text_renderer.h">
+    <ClInclude Include="..\..\text_renderer.h">
       <Filter>Rendering\Text</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\sp_animations.h">
+    <ClInclude Include="..\..\animations.h">
       <Filter>Resource Management</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\sp_resources.h">
+    <ClInclude Include="..\..\resources.h">
       <Filter>Resource Management</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\sp_textures.h">
+    <ClInclude Include="..\..\textures.h">
       <Filter>Resource Management</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\sp_button.h">
+    <ClInclude Include="..\..\button.h">
       <Filter>Ui</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\sp_input.h">
+    <ClInclude Include="..\..\input.h">
       <Filter>Ui</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\sp_input_controller.h">
+    <ClInclude Include="..\..\input_controller.h">
       <Filter>Ui</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\sp_label.h">
+    <ClInclude Include="..\..\label.h">
       <Filter>Ui</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\sp_main_window.h">
+    <ClInclude Include="..\..\main_window.h">
       <Filter>Ui</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\sp_game2.h" />
-    <ClInclude Include="..\..\sp_types.h" />
+    <ClInclude Include="..\..\lap_clock.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\png_texture.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\point2.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rect.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\game2.h" />
+    <ClInclude Include="..\..\types.h" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Coordinates">
@@ -178,10 +178,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\shaders\sp_sprite_shader.fs">
+    <None Include="..\..\shaders\sprite_shader.fs">
       <Filter>Rendering\Shaders</Filter>
     </None>
-    <None Include="..\..\shaders\sp_sprite_shader.vs">
+    <None Include="..\..\shaders\sprite_shader.vs">
       <Filter>Rendering\Shaders</Filter>
     </None>
   </ItemGroup>

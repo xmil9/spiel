@@ -25,6 +25,12 @@ robocopy %from% %to% spiel.vcxproj
 robocopy %from% %to% spiel.vcxproj.filters
 robocopy %from% %to% deploy_as_sources.bat
 
+:: Deploy shaders.
+set from=%src%\shaders
+set to=%dest%\shaders
+mkdir %to%
+robocopy %from% %to% *.* /e
+
 :: Deploy dependencies.
 set from=%src%\deps
 set to=%dest%\deps

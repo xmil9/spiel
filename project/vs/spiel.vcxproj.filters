@@ -173,5 +173,16 @@
     <Filter Include="Utilities">
       <UniqueIdentifier>{4622d19c-7d00-4d4d-999f-a14d95986d31}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Rendering\Shaders">
+      <UniqueIdentifier>{6be14dc8-7624-4e5f-8a2c-6848a69c7425}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\shaders\sp_sprite_shader.fs">
+      <Filter>Rendering\Shaders</Filter>
+    </None>
+    <None Include="..\..\shaders\sp_sprite_shader.vs">
+      <Filter>Rendering\Shaders</Filter>
+    </None>
   </ItemGroup>
 </Project>

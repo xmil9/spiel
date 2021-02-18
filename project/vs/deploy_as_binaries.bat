@@ -17,6 +17,12 @@ set binDest=%outDir%\spiel\bin
 mkdir %inclDest%
 robocopy %inclSrc% %inclDest% *.h
 
+:: Deploy shaders.
+set from=%thisDir%..\..\shaders
+set to=%outDir%\spiel\shaders
+mkdir %to%
+robocopy %from% %to% *.* /e
+
 :: Deploy binaries.
 set from="%binSrc%\Release"
 set to=%binDest%\x86\rel_lib

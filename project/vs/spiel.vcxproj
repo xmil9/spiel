@@ -71,6 +71,10 @@
     <ClInclude Include="..\..\sp_text_renderer.h" />
     <ClInclude Include="..\..\sp_types.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\shaders\sp_sprite_shader.fs" />
+    <None Include="..\..\shaders\sp_sprite_shader.vs" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>

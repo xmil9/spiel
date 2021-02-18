@@ -1,149 +1,149 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="..\..\sge_game2.cpp" />
-    <ClCompile Include="..\..\sge_animations.cpp">
-      <Filter>Resource Management</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\sge_animation.cpp">
-      <Filter>Rendering\2d</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\sge_button.cpp">
-      <Filter>Ui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\sge_camera_fps.cpp">
-      <Filter>Rendering\3d</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\sge_frustum3.cpp">
-      <Filter>Rendering\3d</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\sge_input.cpp">
-      <Filter>Ui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\sge_label.cpp">
-      <Filter>Ui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\sge_main_window.cpp">
-      <Filter>Ui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\sge_png_texture.cpp">
-      <Filter>Utilities</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\sge_renderer2.cpp">
-      <Filter>Rendering\2d</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\sge_sprite_form.cpp">
-      <Filter>Rendering\2d</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\sge_sprite_renderer.cpp">
-      <Filter>Rendering\2d</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\sge_text_renderer.cpp">
-      <Filter>Rendering\Text</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\sge_textures.cpp">
-      <Filter>Resource Management</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\deps\glad\src\glad.c">
       <Filter>Glad</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\sp_png_texture.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sp_animation.cpp">
+      <Filter>Rendering\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sp_renderer2.cpp">
+      <Filter>Rendering\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sp_sprite_form.cpp">
+      <Filter>Rendering\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sp_sprite_renderer.cpp">
+      <Filter>Rendering\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sp_camera_fps.cpp">
+      <Filter>Rendering\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sp_frustum3.cpp">
+      <Filter>Rendering\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sp_text_renderer.cpp">
+      <Filter>Rendering\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sp_animations.cpp">
+      <Filter>Resource Management</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sp_textures.cpp">
+      <Filter>Resource Management</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sp_button.cpp">
+      <Filter>Ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sp_input.cpp">
+      <Filter>Ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sp_label.cpp">
+      <Filter>Ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sp_main_window.cpp">
+      <Filter>Ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sp_game2.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\sge_game2.h" />
-    <ClInclude Include="..\..\sge_types.h" />
-    <ClInclude Include="..\..\sge_animations.h">
-      <Filter>Resource Management</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\sge_animation.h">
-      <Filter>Rendering\2d</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\sge_button.h">
-      <Filter>Ui</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\sge_camera_2d.h">
-      <Filter>Rendering\2d</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\sge_camera_fps.h">
-      <Filter>Rendering\3d</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\sge_coords.h">
-      <Filter>Coordinates</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\sge_direction.h">
-      <Filter>Coordinates</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\sge_frustum2.h">
-      <Filter>Rendering\2d</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\sge_frustum3.h">
-      <Filter>Rendering\3d</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\sge_input.h">
-      <Filter>Ui</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\sge_input_controller.h">
-      <Filter>Ui</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\sge_label.h">
-      <Filter>Ui</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\sge_int_coords.h">
-      <Filter>Coordinates</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\sge_main_window.h">
-      <Filter>Ui</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\sge_lap_clock.h">
-      <Filter>Utilities</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\sge_map_coords.h">
-      <Filter>Coordinates</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\sge_mesh2.h">
-      <Filter>Rendering\2d</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\sge_norm_coords.h">
-      <Filter>Coordinates</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\sge_pixel_coords.h">
-      <Filter>Coordinates</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\sge_png_texture.h">
-      <Filter>Utilities</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\sge_point2.h">
-      <Filter>Utilities</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\sge_rect.h">
-      <Filter>Utilities</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\sge_renderer2.h">
-      <Filter>Rendering\2d</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\sge_resources.h">
-      <Filter>Resource Management</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\sge_sprite_form.h">
-      <Filter>Rendering\2d</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\sge_sprite_look.h">
-      <Filter>Rendering\2d</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\sge_sprite_renderer.h">
-      <Filter>Rendering\2d</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\sge_text_renderer.h">
-      <Filter>Rendering\Text</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\sge_textures.h">
-      <Filter>Resource Management</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\sge_sprite.h">
-      <Filter>Rendering\2d</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\deps\glad\include\glad\glad.h">
       <Filter>Glad</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\sp_coords.h">
+      <Filter>Coordinates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sp_direction.h">
+      <Filter>Coordinates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sp_int_coords.h">
+      <Filter>Coordinates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sp_map_coords.h">
+      <Filter>Coordinates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sp_norm_coords.h">
+      <Filter>Coordinates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sp_pixel_coords.h">
+      <Filter>Coordinates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sp_lap_clock.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sp_png_texture.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sp_point2.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sp_rect.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sp_animation.h">
+      <Filter>Rendering\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sp_camera_2d.h">
+      <Filter>Rendering\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sp_frustum2.h">
+      <Filter>Rendering\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sp_mesh2.h">
+      <Filter>Rendering\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sp_renderer2.h">
+      <Filter>Rendering\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sp_sprite.h">
+      <Filter>Rendering\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sp_sprite_form.h">
+      <Filter>Rendering\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sp_sprite_look.h">
+      <Filter>Rendering\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sp_sprite_renderer.h">
+      <Filter>Rendering\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sp_camera_fps.h">
+      <Filter>Rendering\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sp_frustum3.h">
+      <Filter>Rendering\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sp_text_renderer.h">
+      <Filter>Rendering\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sp_animations.h">
+      <Filter>Resource Management</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sp_resources.h">
+      <Filter>Resource Management</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sp_textures.h">
+      <Filter>Resource Management</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sp_button.h">
+      <Filter>Ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sp_input.h">
+      <Filter>Ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sp_input_controller.h">
+      <Filter>Ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sp_label.h">
+      <Filter>Ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sp_main_window.h">
+      <Filter>Ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sp_game2.h" />
+    <ClInclude Include="..\..\sp_types.h" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Coordinates">

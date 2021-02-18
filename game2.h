@@ -76,6 +76,8 @@ class Game2
    bool setupRenderer(const FileSysConfig& fsConfig);
 
  private:
+   using FrameClock = LapClock<float, std::chrono::milliseconds>;
+
    gfl::Lib m_glfw;
    PixCoordi m_wndWidth = 0;
    PixCoordi m_wndHeight = 0;

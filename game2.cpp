@@ -11,6 +11,7 @@ namespace
 ///////////////////
 
 constexpr gfl::Lib::ContextVersion OpenGLVersion{4, 6};
+constexpr float MsToSecs = 0.001f;
 
 } // namespace
 

@@ -24,6 +24,7 @@
     <ClCompile Include="..\..\animations.cpp" />
     <ClCompile Include="..\..\button.cpp" />
     <ClCompile Include="..\..\camera_fps.cpp" />
+    <ClCompile Include="..\..\deps\stb\stb_image.cpp" />
     <ClCompile Include="..\..\frustum3.cpp" />
     <ClCompile Include="..\..\game2.cpp" />
     <ClCompile Include="..\..\input.cpp" />
@@ -44,6 +45,7 @@
     <ClInclude Include="..\..\camera_2d.h" />
     <ClInclude Include="..\..\camera_fps.h" />
     <ClInclude Include="..\..\coords.h" />
+    <ClInclude Include="..\..\deps\stb\stb_image.h" />
     <ClInclude Include="..\..\direction.h" />
     <ClInclude Include="..\..\frustum2.h" />
     <ClInclude Include="..\..\frustum3.h" />

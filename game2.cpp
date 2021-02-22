@@ -121,6 +121,11 @@ void Game2::onInputChanged(Input& /*src*/, std::string_view event,
       const auto& buttonData = static_cast<const MouseButtonChangedData&>(data);
       onMouseButtonChanged(buttonData.button, buttonData.action, buttonData.pos);
    }
+   else if (event == KeyChangedEvent)
+   {
+      const auto& keyData = static_cast<const KeyChangedData&>(data);
+      onKeyChanged(keyData.key, keyData.action, keyData.mods);
+   }
    else if (event == KeyPolledEvent)
    {
       const auto& polledData = static_cast<const KeyPolledData&>(data);
@@ -145,6 +150,23 @@ void Game2::onMouseButtonChanged(gfl::MouseButton button, int action,
          onRightButtonPressed(pos);
       else
          onRightButtonReleased(pos);
+   }
+}
+
+
+void Game2::onKeyChanged(gfl::Key key, int action, int mods)
+{
+   switch (action)
+   {
+   case GLFW_PRESS:
+      onKeyPressed(key, mods);
+      break;
+   case GLFW_RELEASE:
+      onKeyReleased(key, mods);
+      break;
+   case GLFW_REPEAT:
+      // Ignore for now.
+      break;
    }
 }
 

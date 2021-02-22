@@ -9,6 +9,13 @@
 
 namespace sp
 {
+///////////////////
+
+void Input::setPolledKeys(const std::vector<int>& keys)
+{
+   m_polledKeys = keys;
+}
+
 
 void Input::process(gfl::Window& wnd, float frameLengthSecs)
 {
@@ -74,10 +81,7 @@ void Input::onKeyChanged(gfl::Key key, int scancode, int action, int mods)
 
 void Input::pollKeys(gfl::Window& wnd, float frameLengthSecs)
 {
-   static constexpr std::array<int, 4> PolledKeys = {GLFW_KEY_W, GLFW_KEY_S, GLFW_KEY_A,
-                                                     GLFW_KEY_D};
-
-   for (auto key : PolledKeys)
+   for (auto key : m_polledKeys)
    {
       if (glfwGetKey(wnd.handle(), key) == GLFW_PRESS)
          notifyKeyPolled(key, frameLengthSecs);

@@ -1,0 +1,14 @@
+# Reset everything.
+!*
+
+# Ignore some Visual Studio files that get created
+# when building a dependency that is deployed as
+# sources.
+*.log
+*.tlog
+*.recipe
+*.lastbuildstate
+*.obj
+*.idb
+*.FileListAbsolute.txt
+*.user
